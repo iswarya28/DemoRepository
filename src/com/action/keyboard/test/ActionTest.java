@@ -13,6 +13,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class ActionTest {
+	
+	public void test() {
+		System.out.println("checking test");
+	}
 
 	public static void main(String args[]) throws AWTException {
 		System.setProperty("webdriver.gecko.driver", "D:\\Browse\\geckodriver.exe");
